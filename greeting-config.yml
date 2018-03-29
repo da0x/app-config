@@ -7,4 +7,13 @@ management:
   security:
     enabled: false
 
+loging:
+  level:
+    io:
+      pivotal: DEBUG
 
+greeting:
+  displayFortune: false
+
+  quoteServiceURL: http://quote-server-dev.cfapps.io/quote
+  
